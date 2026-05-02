@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useId, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
-const LINKS = [
+const HASH_LINKS = [
   { href: "#layanan", label: "Layanan" },
   { href: "#menu", label: "Menu" },
   { href: "#faq", label: "FAQ" },
@@ -10,7 +11,11 @@ const LINKS = [
 export default function Header({ waHref, tel, phone }) {
   const [open, setOpen] = useState(false);
   const panelId = useId();
+  const { pathname } = useLocation();
+  const isHome = pathname === "/";
   const close = useCallback(() => setOpen(false), []);
+
+  const hashHref = (hash) => (isHome ? hash : `/${hash}`);
 
   useEffect(() => {
     if (!open) return;
@@ -27,18 +32,21 @@ export default function Header({ waHref, tel, phone }) {
   return (
     <header className="site-header">
       <div className="container nav">
-        <a href="#home" className="brand" onClick={close}>
+        <Link to="/" className="brand" onClick={close}>
           <span className="brand-name">Lumbana</span>
           <span className="brand-subtitle">Catering Khas Batak Toba</span>
-        </a>
+        </Link>
 
         <nav id={panelId} className={`nav-panel${open ? " nav-panel--open" : ""}`} aria-label="Navigasi utama">
           <ul className="menu">
-            {LINKS.map((l) => (
+            {HASH_LINKS.map((l) => (
               <li key={l.href}>
-                <a href={l.href} onClick={close}>{l.label}</a>
+                <a href={hashHref(l.href)} onClick={close}>{l.label}</a>
               </li>
             ))}
+            <li>
+              <Link to="/artikel" onClick={close}>Artikel</Link>
+            </li>
           </ul>
         </nav>
 
