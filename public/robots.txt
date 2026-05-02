@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://lumbana.id/sitemap.xml
+Sitemap: https://lumbana.id/sitemaps.xml
