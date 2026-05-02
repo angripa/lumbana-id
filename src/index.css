@@ -83,21 +83,54 @@ img, svg { display: block; }
   padding: 0.35rem 0;
 }
 
-.brand {
+.brand { display: inline-flex; flex-shrink: 0; }
+
+/* ── LOGO COMPONENT ──────────────────────────────────────── */
+.logo-wrap {
   display: inline-flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   flex-shrink: 0;
 }
-.brand-name {
-  color: var(--accent);
-  font-weight: 800;
-  font-size: clamp(1.2rem, 4vw, 1.6rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+.logo-mark {
+  height: 40px;
+  width: auto;
+  flex-shrink: 0;
+  transition: filter 0.2s;
 }
-.brand-subtitle {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: clamp(0.65rem, 2vw, 0.78rem);
+.brand:hover .logo-mark {
+  filter: drop-shadow(0 0 6px rgba(240, 195, 72, 0.5));
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.logo-name {
+  font-size: clamp(1.1rem, 3vw, 1.45rem);
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.logo-tld {
+  font-size: 0.78em;
+  color: rgba(240, 195, 72, 0.65);
+  font-weight: 600;
+}
+.logo-sub {
+  font-size: clamp(0.58rem, 1.4vw, 0.68rem);
+  color: rgba(255, 255, 255, 0.55);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .logo-sub { display: none; }
+  .logo-mark { height: 36px; }
+}
+@media (min-width: 769px) {
+  .logo-mark { height: 46px; }
 }
 
 .nav-actions {
@@ -809,3 +842,4 @@ img, svg { display: block; }
   margin-bottom: 2rem;
 }
 .not-found-cta { justify-content: center; }
+

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useId, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "./Logo.jsx";
 
 const HASH_LINKS = [
   { href: "#layanan", label: "Layanan" },
@@ -33,8 +34,7 @@ export default function Header({ waHref, tel, phone }) {
     <header className="site-header">
       <div className="container nav">
         <Link to="/" className="brand" onClick={close}>
-          <span className="brand-name">Lumbana</span>
-          <span className="brand-subtitle">Catering Khas Batak Toba</span>
+          <Logo />
         </Link>
 
         <nav id={panelId} className={`nav-panel${open ? " nav-panel--open" : ""}`} aria-label="Navigasi utama">
