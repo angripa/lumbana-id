@@ -599,6 +599,261 @@ export const articles = [
       },
     ],
   },
+  {
+    slug: "tips-menu-sesuai-jumlah-tamu",
+    title: "Tips Memilih Menu Catering Sesuai Jumlah Tamu Acara",
+    excerpt:
+      "Terlalu sedikit bisa mempermalukan, terlalu banyak berarti pemborosan. Panduan praktis memilih menu dan menghitung porsi catering berdasarkan skala acara Anda.",
+    date: "2025-02-10",
+    readTime: "5 menit",
+    category: "Tips & Panduan",
+    content: [
+      {
+        type: "p",
+        text: "Salah satu kebingungan terbesar dalam merencanakan acara — baik pernikahan, arisan, maupun pesta adat — adalah menentukan menu yang tepat untuk jumlah tamu yang bervariasi. Terlalu sedikit bisa mempermalukan tuan rumah, terlalu banyak berarti pemborosan anggaran. Berikut panduan praktis berdasarkan skala acara.",
+      },
+      {
+        type: "h2",
+        text: "50–100 Tamu: Paket Sederhana tapi Berkesan",
+      },
+      {
+        type: "p",
+        text: "Untuk acara dengan tamu 50–100 orang, menu bisa lebih fokus dan personal. Cukup 2–3 lauk utama, 1 sayuran, dan nasi. Untuk acara adat Batak, arsik ditambah satu menu daging adalah kombinasi yang sudah sangat berkesan. Porsi per orang biasanya 300–350 gram makanan matang.",
+      },
+      {
+        type: "h2",
+        text: "100–300 Tamu: Variasi adalah Kunci",
+      },
+      {
+        type: "p",
+        text: "Di skala ini, variasi menu menjadi lebih penting karena selera tamu lebih beragam. Tambahkan setidaknya satu menu nasional (rendang atau ayam goreng) untuk mengakomodasi tamu non-Batak. Pertimbangkan juga dessert sederhana atau buah potong sebagai pelengkap.",
+      },
+      {
+        type: "h2",
+        text: "300–500 Tamu: Perencanaan Logistik Ketat",
+      },
+      {
+        type: "p",
+        text: "Di skala besar, konsistensi kualitas antar porsi menjadi tantangan utama. Pastikan catering memiliki kapasitas produksi yang memadai. Diskusikan sistem penyajian — prasmanan, nasi kotak, atau rantang — sesuai layout dan konsep venue Anda.",
+      },
+      {
+        type: "h2",
+        text: "500+ Tamu: Butuh Vendor yang Sudah Teruji",
+      },
+      {
+        type: "p",
+        text: "Untuk acara dengan 500 tamu ke atas, tidak semua vendor catering bisa menanganinya. Tanya langsung: berapa acara terbesar yang pernah mereka layani? Pengalaman di skala ini sangat berbeda dari acara kecil, dan referensi dari keluarga Batak lain adalah indikator terbaik.",
+      },
+      {
+        type: "h2",
+        text: "Tips Umum yang Sering Dilupakan",
+      },
+      {
+        type: "list",
+        items: [
+          "Tambahkan buffer 10–15% di atas estimasi tamu undangan",
+          "Pertimbangkan waktu makan — siang vs malam mempengaruhi selera dan porsi",
+          "Konfirmasi jumlah final H-7 dan H-1 kepada catering",
+          "Sediakan opsi bagi tamu dengan pantangan makanan tertentu",
+          "Diskusikan meja VIP (hula-hula) yang mendapat pelayanan khusus",
+        ],
+      },
+      {
+        type: "p",
+        text: "Lumbana Catering melayani acara mulai dari 50 hingga ribuan porsi. Konsultasikan kebutuhan acara Anda langsung via WhatsApp untuk mendapatkan rekomendasi menu dan estimasi harga yang sesuai.",
+      },
+    ],
+  },
+  {
+    slug: "perbedaan-masakan-batak-toba-karo-simalungun",
+    title: "Perbedaan Masakan Batak: Toba, Karo, dan Simalungun",
+    excerpt:
+      "Banyak yang menyebut 'masakan Batak' seolah satu jenis kuliner. Padahal Toba, Karo, dan Simalungun punya karakter yang sangat berbeda. Kenali perbedaannya di sini.",
+    date: "2025-02-20",
+    readTime: "5 menit",
+    category: "Menu & Masakan",
+    content: [
+      {
+        type: "p",
+        text: "Banyak orang menyebut \"masakan Batak\" seolah-olah ia satu jenis kuliner yang seragam. Padahal, suku Batak terdiri dari beberapa sub-suku dengan tradisi kuliner yang berbeda-beda. Toba, Karo, dan Simalungun masing-masing punya karakter rasa, bumbu, dan hidangan ikonik yang unik.",
+      },
+      {
+        type: "h2",
+        text: "Masakan Batak Toba — Andaliman sebagai Jiwa",
+      },
+      {
+        type: "p",
+        text: "Masakan Batak Toba sangat identik dengan andaliman — merica khas Batak yang tumbuh di pegunungan sekitar Danau Toba dan memberikan sensasi kesemutan di lidah. Cita rasanya kompleks, pedas, dan kaya rempah. Hidangan ikoniknya meliputi arsik (ikan mas berbumbu kuning), saksang (daging dengan bumbu darah dan rempah), naniura (ikan mentah diasamkan), dan ayam napinadar.",
+      },
+      {
+        type: "h2",
+        text: "Masakan Batak Karo — Lebih Segar dan Aromatik",
+      },
+      {
+        type: "p",
+        text: "Masakan Karo cenderung menggunakan lebih banyak sayuran segar dan rempah-rempah beraroma. Profil rasanya umumnya lebih ringan dibanding Toba, dengan sedikit rasa asam alami dari bahan-bahan segar. Hidangan khasnya antara lain Babi Panggang Karo (BPK) yang legendaris, manuk pansoh (ayam masak bambu), dan cimpa (kue tradisional dari tepung beras).",
+      },
+      {
+        type: "h2",
+        text: "Masakan Simalungun — Asam dan Kaya Tumbuhan Liar",
+      },
+      {
+        type: "p",
+        text: "Masakan Simalungun banyak menggunakan asam-asaman sebagai penyeimbang rasa dan tumbuhan liar khas dataran tinggi yang memberikan aroma unik. Hidangan khasnya memiliki variasi tersendiri dibanding Toba: arsik Simalungun menggunakan bumbu yang lebih asam, dan penggunaan bahan-bahan seperti haombus memberikan dimensi rasa yang berbeda.",
+      },
+      {
+        type: "h2",
+        text: "Apa yang Menyatukan Mereka?",
+      },
+      {
+        type: "list",
+        items: [
+          "Penggunaan ikan dan daging sebagai protein utama dalam konteks adat",
+          "Rempah-rempah khas tanah Batak yang tidak ditemukan di daerah lain",
+          "Tradisi makan bersama sebagai inti dari setiap perayaan dan upacara",
+          "Hidangan yang selalu disiapkan dalam jumlah besar untuk komunitas",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Spesialisasi Lumbana Catering",
+      },
+      {
+        type: "p",
+        text: "Sebagai vendor spesialis Batak Toba, Lumbana Catering fokus pada cita rasa Toba yang autentik: arsik, saksang, ayam napinadar, dengke naniarsik, dan seluruh menu pelengkapnya. Kami menggunakan andaliman berkualitas dan resep turun-temurun untuk menjaga keaslian setiap hidangan yang kami sajikan.",
+      },
+    ],
+  },
+  {
+    slug: "acara-adat-batak-diaspora-jakarta",
+    title: "Cara Menyiapkan Acara Adat Batak dari Jauh: Panduan Diaspora di Jakarta",
+    excerpt:
+      "Jutaan orang Batak merantau ke Jakarta. Saat harus menggelar acara adat, jarak dan waktu menjadi tantangan nyata. Panduan praktis ini membantu Anda tetap terhubung meski dari jauh.",
+    date: "2025-03-05",
+    readTime: "6 menit",
+    category: "Tips & Panduan",
+    content: [
+      {
+        type: "p",
+        text: "Jutaan orang Batak merantau ke Jakarta dan kota-kota besar lainnya. Ketika harus menggelar acara adat — pernikahan, Marhusip, atau Maria Raja — jarak ratusan kilometer dan keterbatasan waktu menjadi tantangan yang nyata. Artikel ini adalah panduan praktis bagi diaspora Batak di Jakarta yang ingin menggelar acara adat yang berkesan.",
+      },
+      {
+        type: "h2",
+        text: "1. Tetapkan Satu Koordinator Lokal yang Dapat Diandalkan",
+      },
+      {
+        type: "p",
+        text: "Ini adalah langkah paling krusial. Percayakan satu anggota keluarga atau teman terpercaya yang berdomisili di Jakarta sebagai koordinator utama. Tugasnya mencakup: menghubungi dan mengurus semua vendor (catering, gedung, dekorasi), mengonfirmasi kehadiran tamu, dan memastikan semua persiapan berjalan sesuai rencana. Tanpa koordinator lokal yang solid, persiapan dari jarak jauh hampir mustahil berjalan lancar.",
+      },
+      {
+        type: "h2",
+        text: "2. Maksimalkan Komunikasi Digital",
+      },
+      {
+        type: "p",
+        text: "Buat grup WhatsApp khusus panitia dengan pembagian tanggung jawab yang jelas. Bagikan checklist, timeline, dan informasi vendor di grup tersebut. Update rutin setiap minggu membantu semua pihak tetap sinkron meski berada di kota berbeda. Video call mingguan dengan koordinator lokal juga sangat membantu untuk mendeteksi masalah sejak dini.",
+      },
+      {
+        type: "h2",
+        text: "3. Pilih Vendor yang Proaktif dan Responsif",
+      },
+      {
+        type: "p",
+        text: "Ketika Anda tidak bisa hadir langsung, Anda perlu vendor yang bisa dihubungi kapan saja via WhatsApp, memberikan update secara proaktif, dan memiliki rekam jejak yang jelas dari keluarga Batak lain. Minta testimoni dan referensi secara spesifik. Vendor yang baik tidak akan keberatan memberikan ini.",
+      },
+      {
+        type: "h2",
+        text: "4. Lakukan Survei Virtual via Video Call",
+      },
+      {
+        type: "p",
+        text: "Sebelum memutuskan vendor, lakukan survei virtual: minta koordinator lokal menemani tim catering dan venue ke lokasi, lalu lakukan video call bersama Anda secara real-time. Ini cukup efektif untuk menilai kapasitas, kondisi fasilitas, dan profesionalisme vendor tanpa harus hadir fisik.",
+      },
+      {
+        type: "h2",
+        text: "5. Rencanakan 2 Kunjungan ke Jakarta",
+      },
+      {
+        type: "list",
+        items: [
+          "Kunjungan pertama (1–2 bulan sebelum acara): tanda tangan kontrak, food tasting, survei venue",
+          "Kunjungan kedua (H-3): cek kesiapan semua vendor, briefing ulang panitia, konfirmasi teknis",
+          "Tiba paling lambat H-1 untuk persiapan akhir dan istirahat sebelum hari H",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Lumbana: Mitra Terpercaya Diaspora Batak di Jakarta",
+      },
+      {
+        type: "p",
+        text: "Kami telah melayani banyak keluarga Batak perantau yang menggelar acara adat di Jakarta Timur. Tim Lumbana Catering memahami tantangan koordinasi jarak jauh dan siap berkomunikasi aktif via WhatsApp — dari proses konsultasi menu pertama hingga makanan tersaji di hari H.",
+      },
+    ],
+  },
+  {
+    slug: "dalihan-na-tolu-pesta-adat-batak",
+    title: "Apa Itu Dalihan Na Tolu dan Perannya dalam Pesta Adat Batak",
+    excerpt:
+      "Dalihan Na Tolu adalah fondasi kehidupan sosial Batak. Konsep ini menentukan siapa yang duduk di mana, siapa yang dilayani pertama, hingga bagaimana makanan disajikan dalam setiap pesta adat.",
+    date: "2025-03-18",
+    readTime: "5 menit",
+    category: "Tradisi Adat",
+    content: [
+      {
+        type: "p",
+        text: "Jika ada satu konsep yang paling mendasar dalam memahami kehidupan sosial dan budaya Batak Toba, jawabannya adalah Dalihan Na Tolu. Konsep ini bukan sekadar sistem kekerabatan — ia adalah fondasi dari semua interaksi sosial Batak, termasuk bagaimana sebuah pesta adat diorganisir, siapa yang mendapat penghormatan tertinggi, dan bagaimana makanan disajikan.",
+      },
+      {
+        type: "h2",
+        text: "Apa Itu Dalihan Na Tolu?",
+      },
+      {
+        type: "p",
+        text: "Dalihan Na Tolu secara harfiah berarti \"tungku berkaki tiga.\" Dalam sistem kekerabatan Batak, ia merujuk pada tiga kelompok sosial yang saling berhubungan dan saling bergantung:",
+      },
+      {
+        type: "list",
+        items: [
+          "Hula-hula — keluarga dari pihak istri (pemberi marga); mendapat penghormatan tertinggi",
+          "Dongan Tubu — saudara semarga; setara, saling mendukung",
+          "Boru — keluarga pihak laki-laki (penerima marga); melayani dan menjalankan tugas teknis",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Mengapa Disebut Tungku Berkaki Tiga?",
+      },
+      {
+        type: "p",
+        text: "Sama seperti tungku berkaki tiga yang hanya bisa berdiri kokoh jika ketiga kakinya seimbang, kehidupan sosial Batak hanya berjalan harmonis jika ketiga kelompok ini saling menghormati dan menjalankan perannya dengan baik. Hilangkan satu kaki, tungku akan roboh. Itulah filosofi di balik nama ini.",
+      },
+      {
+        type: "h2",
+        text: "Perannya dalam Pesta Adat",
+      },
+      {
+        type: "p",
+        text: "Dalam setiap pesta adat Batak — dari Marhusip hingga Maria Raja — Dalihan Na Tolu menentukan segalanya: siapa yang duduk di posisi kehormatan, siapa yang memberikan sambutan pertama, siapa yang menerima ulos, hingga urutan penyajian makanan. Hula-hula selalu mendapat penghormatan tertinggi dan dilayani pertama.",
+      },
+      {
+        type: "h2",
+        text: "Implikasinya pada Penyajian Makanan",
+      },
+      {
+        type: "p",
+        text: "Dalam konteks catering pesta adat, pemahaman tentang Dalihan Na Tolu sangat penting. Makanan pertama disajikan kepada Hula-hula. Meja mereka mendapat perhatian lebih — baik dari segi kelengkapan hidangan maupun kecepatan pelayanan. Itulah mengapa vendor catering yang berpengalaman dengan adat Batak sangat berbeda dari catering umum yang tidak memahami hierarki ini.",
+      },
+      {
+        type: "h2",
+        text: "Relevansi di Era Modern",
+      },
+      {
+        type: "p",
+        text: "Di kota-kota besar seperti Jakarta, penerapan Dalihan Na Tolu sudah lebih fleksibel dan tidak sekaku di kampung halaman. Namun esensinya — menghormati hula-hula, menjaga kesatuan dongan tubu, dan menjalankan kewajiban boru — tetap menjadi panduan moral yang dipegang teguh oleh komunitas Batak di mana pun mereka berada. Memahami ini adalah kunci menggelar acara adat yang benar-benar berkesan.",
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug) {

@@ -85,4 +85,32 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://lumbana.id/artikel/tips-menu-sesuai-jumlah-tamu</loc>
+    <lastmod>2025-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lumbana.id/artikel/perbedaan-masakan-batak-toba-karo-simalungun</loc>
+    <lastmod>2025-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lumbana.id/artikel/acara-adat-batak-diaspora-jakarta</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lumbana.id/artikel/dalihan-na-tolu-pesta-adat-batak</loc>
+    <lastmod>2025-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
