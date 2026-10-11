@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout.jsx";
-import { BinduMark } from "../components/Logo.jsx";
+import HeroSlider from "../components/HeroSlider.jsx";
 import { SectionHead, CtaBand } from "../components/Ui.jsx";
 import { PILLARS, TRIPS, ADAT_SERVICES, STATS } from "../data/platform.js";
 import { articles } from "../data/articles.js";
@@ -34,10 +34,7 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-          <div className="hero-art" aria-hidden="true">
-            <BinduMark size={260} tone="dark" />
-            <div className="tri-band" />
-          </div>
+          <HeroSlider />
         </div>
       </section>
 

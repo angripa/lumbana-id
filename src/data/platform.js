@@ -112,3 +112,61 @@ export const STATS = [
   { num: "1000+", label: "Keluarga puas" },
   { num: "20+", label: "Varian menu" },
 ];
+
+// Home slider photos from Wikimedia Commons. The licenses require the credit line shown on each slide.
+export const SLIDES = [
+  {
+    file: "kaldera-toba",
+    title: "Kaldera Danau Toba",
+    alt: "Danau Toba berwarna biru kehijauan dikelilingi tebing kaldera dan perbukitan hijau",
+    credit: "Yudhapohan",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Caldera_Toba.jpg",
+  },
+  {
+    file: "rumah-bolon",
+    title: "Rumah bolon",
+    alt: "Deretan rumah adat Batak Toba dengan atap melengkung tinggi di bawah langit biru",
+    credit: "Nurul Ichlasiah",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Rumah_Bolon.jpg",
+  },
+  {
+    file: "bukit-holbung",
+    title: "Bukit Holbung, Samosir",
+    alt: "Perbukitan hijau Samosir terpantul di permukaan Danau Toba yang tenang",
+    credit: "Francis Hartanto",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Bukit_Holbung.jpg",
+  },
+  {
+    file: "mangulosi",
+    title: "Mangulosi",
+    alt: "Orang tua menyelimutkan ulos kepada pasangan pengantin dalam pesta adat Batak",
+    credit: "Firman Ronald",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Mangulosi.jpg",
+  },
+  {
+    file: "tenun-ulos",
+    title: "Menenun ulos",
+    alt: "Penenun ulos bekerja dengan alat tenun kayu di samping kain ulos merah bermotif",
+    credit: "Maula039",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Tenun_Ulos.jpg",
+  },
+  {
+    file: "senja-toba",
+    title: "Senja di Danau Toba",
+    alt: "Matahari terbenam di atas Danau Toba dilihat dari balik pohon pinus",
+    credit: "Lattecupoftea",
+    license: "CC BY 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+    source: "https://commons.wikimedia.org/wiki/File:2022,A_sunset_at_Lake_Toba,Penatapan_View.jpg",
+  },
+];
