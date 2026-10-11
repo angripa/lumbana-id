@@ -1,6 +1,6 @@
-# Lumbana Catering — React (Vite)
+# Lumbana.id — React (Vite)
 
-Landing page **React** yang responsive dan SEO-friendly untuk Lumbana Catering.
+Situs **React** untuk Lumbana.id, platform budaya Batak: Kuliner (catering), Wisata, Acara Adat, dan Pasar.
 
 ## Menjalankan
 
@@ -24,9 +24,12 @@ Output ada di folder `dist/`. Deploy `dist/` ke hosting statis (Netlify, Vercel,
 ## Struktur
 
 - `index.html` — shell + meta SEO + JSON-LD
-- `src/App.jsx` — konten halaman
-- `src/components/Header.jsx` — navigasi + menu mobile (hamburger)
-- `src/index.css` — gaya mobile-first
+- `src/App.jsx` — daftar route: `/`, `/kuliner`, `/wisata`, `/acara-adat`, `/pasar`, `/artikel`
+- `src/pages/` — satu file per halaman
+- `src/data/platform.js` — data layanan, paket wisata, pilihan paket adat
+- `src/data/constants.js` — nomor WhatsApp, telepon, alamat, `waLink()`
+- `src/components/Logo.jsx` — logo bindu matoga
+- `src/index.css` — design system (hitam `#111111`, merah `#D22B1F`, putih `#FAFAF7`, font Archivo)
 - `public/robots.txt`, `public/sitemap.xml` — SEO
 
 ## Sebelum go-live

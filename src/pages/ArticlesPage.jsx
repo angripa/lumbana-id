@@ -1,88 +1,51 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout.jsx";
+import { PageHero, CtaBand } from "../components/Ui.jsx";
 import { articles } from "../data/articles.js";
-import { WA } from "../data/constants.js";
+import { usePageMeta, useReveal } from "../hooks.js";
 
-const CATEGORY_COLORS = {
-  "Menu & Masakan": { bg: "#fff2e8", color: "#6e1828" },
-  "Tradisi Adat":   { bg: "#fdf0f8", color: "#7a1060" },
-  "Tips & Panduan": { bg: "#eef6ff", color: "#1a5a96" },
-};
-
-function formatDate(iso) {
+export function formatDate(iso) {
   return new Date(iso).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
 }
 
-export default function ArticlesPage() {
-  useEffect(() => {
-    document.title = "Artikel | Lumbana Catering — Tips Adat Batak & Panduan Catering";
+export function ArticleCard({ article, as: Title = "h2" }) {
+  return (
+    <article className="article-card reveal">
+      <span className="badge">{article.category}</span>
+      <Title className="article-card-title">
+        <Link to={`/artikel/${article.slug}`}>{article.title}</Link>
+      </Title>
+      <p>{article.excerpt}</p>
+      <p className="article-meta">{formatDate(article.date)} · {article.readTime}</p>
+    </article>
+  );
+}
 
-    const io = new IntersectionObserver(
-      (entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); } }),
-      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
-    );
-    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
-    return () => io.disconnect();
-  }, []);
+export default function ArticlesPage() {
+  usePageMeta(
+    "Cerita | Lumbana.id: Adat Batak, Kuliner, dan Panduan Acara",
+    "Panduan adat Batak Toba, menu khas, dan tips merencanakan acara keluarga dari tim Lumbana."
+  );
+  useReveal();
 
   return (
     <Layout>
-      {/* HERO */}
-      <section className="articles-hero">
-        <div className="articles-hero-pattern" aria-hidden="true" />
-        <div className="container articles-hero-inner">
-          <p className="eyebrow">Artikel & Panduan</p>
-          <h1>Tips, Tradisi, dan Inspirasi Acara Batak</h1>
-          <p className="articles-hero-desc">
-            Temukan panduan lengkap seputar adat Batak Toba, menu khas, dan tips merencanakan acara yang berkesan bersama keluarga.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        tone="ink"
+        eyebrow="Cerita"
+        title={<>Belajar adat<br />sebelum hari H</>}
+        intro="Panduan seputar adat Batak Toba, menu khas, dan tips merencanakan acara bersama keluarga."
+      />
 
-      {/* ARTICLES GRID */}
       <section className="section">
         <div className="container">
-          <div className="articles-grid">
-            {articles.map((article, i) => {
-              const cat = CATEGORY_COLORS[article.category] ?? { bg: "#f5f5f5", color: "#444" };
-              return (
-                <article key={article.slug} className="article-card reveal" style={{ transitionDelay: `${i * 0.06}s` }}>
-                  <div className="article-card-body">
-                    <span className="article-cat" style={{ background: cat.bg, color: cat.color }}>
-                      {article.category}
-                    </span>
-                    <h2 className="article-card-title">
-                      <Link to={`/artikel/${article.slug}`}>{article.title}</Link>
-                    </h2>
-                    <p className="article-card-excerpt">{article.excerpt}</p>
-                  </div>
-                  <div className="article-card-footer">
-                    <span className="article-meta">{formatDate(article.date)} · {article.readTime}</span>
-                    <Link to={`/artikel/${article.slug}`} className="article-read-more">
-                      Baca selengkapnya →
-                    </Link>
-                  </div>
-                </article>
-              );
-            })}
+          <div className="article-grid">
+            {articles.map((a) => <ArticleCard key={a.slug} article={a} />)}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="cta-banner">
-        <div className="cta-banner-pattern" aria-hidden="true" />
-        <div className="container cta-banner-inner reveal">
-          <h2>Butuh Catering untuk Acara Anda?</h2>
-          <p>Konsultasikan kebutuhan menu dan dapatkan estimasi harga langsung via WhatsApp.</p>
-          <div className="cta-group">
-            <a className="btn btn-accent btn-lg" href={WA} target="_blank" rel="noopener noreferrer">
-              Pesan via WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <CtaBand title="Butuh bantuan untuk acara Anda?" text="Konsultasi gratis untuk catering dan paket pesta adat." />
     </Layout>
   );
 }
